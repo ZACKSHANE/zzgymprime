@@ -170,7 +170,7 @@ body {
   flex: 1 1 45rem;
 }
 
-.about .row1 .about-img img {
+.about .row1, .row2, .row3, .row4, .about-img img {
   width: 100%;
 }
 
@@ -214,6 +214,8 @@ body {
   font-weight: 700;
   line-height: 1.6rem;
 }
+
+
 
 .about .row2 .about-img img {
   margin-top: -2rem;
@@ -442,6 +444,11 @@ footer .credit a{
   .contact .row form{
     padding-top: 0;
   }
+  .about .row5 .content p{
+    margin-left: 1.5rem;
+  line-height: 4rem;
+}
+
 }
 /*Handphone*/
 @media (max-width: 450px) {
